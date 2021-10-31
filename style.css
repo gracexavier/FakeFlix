@@ -2,6 +2,7 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -42,4 +43,22 @@ header{
 .menu a{
 
     text-decoration: none;
+}
+
+.foo{
+    margin-top: 300px;
+    color: #323031;
+    display: inline-block;
+}
+
+.footer-individual{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.footer-individual li{
+    list-style-type: none;
+}
+.cop{
+    margin-left: 40px;
 }
