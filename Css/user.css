@@ -1,0 +1,37 @@
+*{
+margin: 0px;
+padding: 0px;
+
+
+}
+
+body {
+    background-color: #141414;
+    align-items: center;
+
+}
+
+body h1 {
+
+    color: #fff;
+    background-color: #545454
+    
+}
+
+header{
+
+    background: linear-gradient( 90deg, rgba(247, 2, 2, 0)100% rgba(0, 0, 0, 0)50%);
+    
+   
+}
+
+header nav#logo {
+
+    width: 10%;
+    
+}
+
+header nav#logo img {
+    height: 100px;
+
+}
