@@ -1,0 +1,63 @@
+body{
+    background-color: #141414;
+    background: url('../Src/backgournd.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+ background-color: #141414;
+ background: linear-gradient(180deg, rgb(12, 12, 12) 10%, rgba(0, 0, 0, 0) 100%);
+ 
+
+
+}
+
+nav{
+    padding: 20px
+}
+
+#logo{
+    height: 25px;
+   
+}
+.navimg{
+    height: 35px;
+}
+
+nav li{
+    display: inline;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    
+  
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+   
+
+}
+
+#right{
+    margin-left: 35%;
+}
+
+section{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 200px 700px 200px 50px;
+}
+
+
+
