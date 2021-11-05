@@ -1,0 +1,145 @@
+*{
+    border: 1px greenyellow solid;
+    
+}
+
+body{
+    background-color: #141414;
+    background: url('../Src/guardioesDaGalaxia.png') no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+
+ background-color: #141414;
+ background: linear-gradient(180deg, rgb(12, 12, 12) 10%, rgba(0, 0, 0, 0) 100%);
+ 
+
+
+}
+
+nav{
+    padding: 20px
+}
+
+#logo{
+    height: 25px;
+   
+}
+.navimg{
+    height: 35px;
+}
+
+nav li{
+    display: inline;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    
+  
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+   
+
+}
+
+#right{
+    margin-left: 35%;
+}
+
+section{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 200px 700px 200px 50px;
+}
+
+button.play{
+    margin-top: 15px;
+    border: none;
+    font-weight: bold;
+    padding: 7px 15px 5px 15px;
+}
+
+button.info{
+    background-color: #606060;
+    color:white;
+    margin-top: 15px;
+    border: none;
+    font-weight: bold;
+    padding: 7px 15px 5px 15px;
+}
+
+
+
+
+ul#select{
+
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+
+}
+
+ul#select li{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #141414;
+    box-shadow: 1px 1px 4px black;
+    transition: all .4s  ease-in;
+}
+
+ul
+
+
+
+
+
+.foo{
+    
+    background: linear-gradient(
+      0deg,   rgb(26, 26, 26) 60%,
+      rgba(187, 2, 187, 0) 100%
+    )
+    no-repeat;
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer-individual{
+    display: inline-block;
+    margin-left: 40px;
+    color: #606060;
+}
+
+.footer-individual li{
+    list-style-type: none;
+    font-size: 8pt;
+    padding: 8px;
+}
+
+.cop{
+    margin-left: 40px;
+    color: #606060;
+   background: #1A1A1A;
+   font-size: 8pt;
+    padding: 8px;
+}
+
