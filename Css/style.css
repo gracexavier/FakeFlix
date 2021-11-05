@@ -1,6 +1,6 @@
 *{
     
-    
+    border: 1px solid rgb(28, 224, 28) ;
 }
 
 body{
@@ -14,16 +14,16 @@ body{
 
 header{
 
- background-color: #141414;
+ 
  background: linear-gradient(180deg, rgb(12, 12, 12) 10%, rgba(0, 0, 0, 0) 100%);
+ position: fixed;
+ width: 100%;
+ z-index: 1;
  
 
 
 }
 
-nav{
-    padding: 20px
-}
 
 #logo{
     height: 25px;
@@ -32,6 +32,8 @@ nav{
 .navimg{
     height: 35px;
 }
+
+
 
 nav li{
     display: inline;
@@ -42,9 +44,9 @@ nav li{
 }
 
 nav ul{
-    
+  display:block ;
   
-    display: inline;
+
 }
 
 nav ul li a{
@@ -56,9 +58,20 @@ nav ul li a{
 
 }
 
-#right{
-    margin-left: 30%;
+#left{
+    float: left;
+
 }
+
+#right{
+    float: right;
+}
+
+
+
+
+
+
 
 section{
     color: #fff;
