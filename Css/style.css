@@ -1,63 +1,385 @@
-body{
-    background-color: #141414;
-    background: url('../Src/backgournd.jpg');
-    padding: 0;
-    margin: 0;
-}
 
-header{
-
- background-color: #141414;
- background: linear-gradient(180deg, rgb(12, 12, 12) 10%, rgba(0, 0, 0, 0) 100%);
- 
-
-
-}
-
-nav{
-    padding: 20px
-}
-
-#logo{
-    height: 25px;
-   
-}
-.navimg{
-    height: 35px;
-}
-
-nav li{
-    display: inline;
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    
-}
-
-nav ul{
-    
+* {
   
-    display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
-nav ul li a{
-    font-size: 14px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-   
-
+body {
+  background-color: #141414;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-#right{
-    margin-left: 35%;
+header {
+  background: #141414;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition: 0.5s;
 }
 
-section{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 200px 700px 200px 50px;
+#logo {
+  height: 25px;
+}
+.navimg {
+  height: 35px;
+}
+
+nav li {
+  display: inline;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav ul {
+  display: block;
+}
+
+nav ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  background: none;
+  color: #f1f1f1;
+  width: 100%;
+  background: none;
+  position: absolute;
+  text-shadow: 1px 2px 0 black;
+  margin: 0px;
+  top: 300px;
+}
+
+.content p {
+  padding-left: 40px;
+  width: 30%;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.content h1 {
+  padding-left: 40px;
+}
+
+button.play {
+  border: none;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin-left: 40px;
+  color: black;
+}
+
+button.info {
+  background-color: rgba(96, 96, 96, 0.5);
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+
+#menu {
+    width: 100%;
+    color:#ffff;
+    
 }
 
 
 
+ul#select {
+  list-style: none;
+ 
+}
+
+ul#select li {
+
+  width: 200px;
+  height: 100px;
+  margin: 2px;
+  box-shadow: 1px 1px 4px black;
+  transition: all 0.4s ease-in;
+  display: inline-block;
+  border-radius: 5%;
+  
+}
+
+ul#select li:hover {
+  transform: scale(1.5);
+  width: 200px;
+  height: 100px;
+ 
+}
+
+ul#select li span {
+  width: 100%;
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+  font-size: 9pt;
+  line-height: 220px;
+}
+
+ul#select li:hover span {
+  opacity: 1;
+  
+}
+
+ul#select li#cover01 {
+  background: url(../Src/cover1.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+}
+
+ul#select li#cover01:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover02 {
+  background: url(../Src/cover2.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+}
+
+ul#select li#cover02:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover03 {
+  background: url(../Src/cover3.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+}
+
+ul#select li#cover03:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover04 {
+  background: url(../Src/cover4.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+}
+
+ul#select li#cover04:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover05 {
+  background: url(../Src/cover5.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+}
+
+ul#select li#cover05:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover06 {
+  background: url(../Src/cover6.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+}
+
+ul#select li#cover06:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover07 {
+  background: url(../Src/cover7.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: 200px 100px;
+  background-color: #141414;
+  
+}
+
+ul#select li#cover07:hover {
+  background-position: 0px 0px;
+  background-size: 200px 100px;
+  padding-bottom: 100px;
+}
+
+ul#select li#cover08 {
+    background: url(../Src/cover8.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover08:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+  ul#select li#cover09 {
+    background: url(../Src/cover9.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover09:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+  ul#select li#cover10 {
+    background: url(../Src/cover10.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover10:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+  ul#select li#cover11 {
+    background: url(../Src/cover11.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover11:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+  ul#select li#cover12 {
+    background: url(../Src/cover12.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover12:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+  
+  ul#select li#cover13 {
+    background: url(../Src/cover13.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover13:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+  ul#select li#cover14 {
+    background: url(../Src/cover14.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover14:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+  ul#select li#cover15 {
+    background: url(../Src/cover16.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: 200px 100px;
+    background-color: #141414;
+    
+  }
+  
+  ul#select li#cover15:hover {
+    background-position: 0px 0px;
+    background-size: 200px 100px;
+    padding-bottom: 100px;
+  }
+
+.foo {
+  background: linear-gradient(
+      0deg,
+      rgb(26, 26, 26) 90%,
+      rgba(187, 2, 187, 0) 100%
+    )
+    no-repeat;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+ 
+}
+
+.footer-individual {
+  display: inline-block;
+  margin-left: 40px;
+  color: #606060;
+}
+
+.footer-individual li {
+  list-style-type: none;
+  font-size: 8pt;
+  padding: 8px;
+}
+
+.cop {
+  color: #606060;
+  background: #1a1a1a;
+  font-size: 8pt;
+  padding: 8px;
+ 
+}
