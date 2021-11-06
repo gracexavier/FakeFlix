@@ -70,7 +70,7 @@ nav ul li a {
   position: absolute;
   text-shadow: 1px 2px 0 black;
   margin: 0px;
-  top: 300px;
+  top: 150px;
 }
 
 .content p {
@@ -82,6 +82,12 @@ nav ul li a {
 
 .content h1 {
   padding-left: 40px;
+}
+
+.content img {
+ padding-left: 40px;
+ height: 150px;
+
 }
 
 button.play {
