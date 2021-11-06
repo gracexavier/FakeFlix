@@ -1,0 +1,23 @@
+   
+                <h1>Top 10 em filmes hoje</h1>
+                <p>
+                O aventureiro do espaço Peter Quill torna-se presa de caçadores de recompensas depois que rouba a esfera de um vilão traiçoeiro, Ronan. Para escapar do perigo, ele faz uma aliança com um grupo de quatro extraterrestres. Quando Quill descobre que a esfera roubada possui um poder capaz de mudar os rumos do universo, ele e seu grupo deverão proteger o objeto para salvar o futuro da galáxia.
+                </p>
+                <button class="play"> ▶ Assistir</button>
+                <button class="info"> 🛈 Mais informações</button>
+
+
+
+                iframe{
+    width: 100%;
+    height: 100%;
+   
+    background: none;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    
+   
+}
