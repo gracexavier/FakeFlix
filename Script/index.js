@@ -7,7 +7,7 @@ function scrollFunction() {
     document.getElementById("header").style.background = "linear-gradient(180deg, rgb(12, 12, 12) 10%, rgba(0, 0, 0, 0) 100%";
   }
 }
-
+function myFunction() {
 // Get the video
 var video = document.getElementById("myVideo");
 
@@ -15,12 +15,12 @@ var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
 // Pause and play the video, and change the button text
-function myFunction() {
+
   if (video.paused) {
     video.play();
-    btn.innerHTML = "Pause";
+    btn.innerHTML = "&#9208; Pausar";
   } else {
     video.pause();
-    btn.innerHTML = "Play";
+    btn.innerHTML = "▶ Assistir";
   }
 }
