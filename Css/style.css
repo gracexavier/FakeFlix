@@ -144,6 +144,11 @@ ul#select li {
   
 }
 
+ul#select li span .Pimg{
+  background-color: #f1f1f1;
+
+}
+
 ul#select li:hover {
   transform: scale(1.5);
   width: 200px;
@@ -154,14 +159,12 @@ ul#select li:hover {
 ul#select li span {
   width: 100%;
   opacity: 0;
-  color: #ffffff;
-  text-shadow: 1px 1px 2px black;
-  font-size: 9pt;
   line-height: 250px;
 }
 
 ul#select li:hover span {
   opacity: 1;
+  
   
 }
 
