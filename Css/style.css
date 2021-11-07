@@ -1,6 +1,6 @@
 
 * {
-  
+  border: 1px solid greenyellow;
   font-family: Arial, Helvetica, sans-serif;
   
 }
@@ -26,6 +26,17 @@ header {
 }
 .navimg {
   height: 35px;
+}
+
+
+ul#select li span img {
+    background: none;
+    height: 15px;
+    border: 1px solid #606060;
+    border-radius: 50%;
+    padding: 5px;
+
+
 }
 
 nav li {
@@ -60,13 +71,13 @@ nav ul li a {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  
 }
 
 .content {
-  background: none;
+  
   color: #f1f1f1;
   width: 100%;
-  background: none;
   position: absolute;
   text-shadow: 1px 2px 0 black;
   margin: 0px;
@@ -109,6 +120,7 @@ button.info {
 #menu {
     width: 100%;
     color:#ffff;
+
     
 }
 
@@ -125,8 +137,9 @@ ul#select li {
   height: 100px;
   margin: 2px;
   box-shadow: 1px 1px 4px black;
-  transition: all 0.4s ease-in;
+  transition: all 0.1s ;
   display: inline-block;
+  padding: 0px;
   border-radius: 5%;
   
 }
@@ -144,7 +157,7 @@ ul#select li span {
   color: #ffffff;
   text-shadow: 1px 1px 2px black;
   font-size: 9pt;
-  line-height: 220px;
+  line-height: 250px;
 }
 
 ul#select li:hover span {
