@@ -101,6 +101,8 @@ nav ul li a {
 
 }
 
+
+
 button.play {
   border: none;
   font-weight: bold;
@@ -146,6 +148,11 @@ ul#select li {
 
 ul#select li span .Pimg{
   background-color: #f1f1f1;
+
+}
+
+ul#select li span .CAimg{
+  margin-left: 35px ;
 
 }
 
