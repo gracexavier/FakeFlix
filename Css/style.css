@@ -1,6 +1,6 @@
 
 * {
- /* border: 1px solid greenyellow;*/
+  border: 1px solid greenyellow;
   font-family: Arial, Helvetica, sans-serif;
   
 }
@@ -137,7 +137,8 @@ ul#select li {
   height: 100px;
   margin: 2px;
   box-shadow: 1px 1px 4px black;
-  transition: all 0.1s ;
+  transition: all 0.2s ;
+  transition-delay: 0.5s ;
   display: inline-block;
   padding: 0px;
   border-radius: 5%;
@@ -164,6 +165,7 @@ ul#select li span {
 
 ul#select li:hover span {
   opacity: 1;
+  transition-delay: 0.3s;
   
   
 }
